@@ -168,7 +168,6 @@ final class SubjectConfirmation extends AbstractSamlElement
     {
         $e = $this->instantiateParentElement($parent);
         $e->setAttribute('Method', $this->Method);
-
         if ($this->NameID !== null) {
             $this->NameID->toXML($e);
         }
