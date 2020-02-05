@@ -15,7 +15,7 @@ use SAML2\Utils;
 /**
  * Class \SAML2\XML\saml\SubjectConfirmationTest
  */
-class SubjectConfirmationTest extends \PHPUnit\Framework\TestCase
+final class SubjectConfirmationTest extends \PHPUnit\Framework\TestCase
 {
     /** @var \DOMDocument */
     private $document;

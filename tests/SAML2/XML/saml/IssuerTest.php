@@ -13,7 +13,7 @@ use SAML2\Utils;
 /**
  * Class \SAML2\XML\saml\IssuerTest
  */
-class IssuerTest extends TestCase
+final class IssuerTest extends TestCase
 {
     /** @var \DOMDocument $document */
     private $document;

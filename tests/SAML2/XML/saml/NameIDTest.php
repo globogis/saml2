@@ -11,7 +11,7 @@ use SAML2\Utils;
 /**
  * Class \SAML2\XML\saml\NameIDTest
  */
-class NameIDTest extends \PHPUnit\Framework\TestCase
+final class NameIDTest extends \PHPUnit\Framework\TestCase
 {
     /** @var \DOMDocument $document */
     private $document;
